@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  /* padding: 0 16px; */
+  background: hsl(201, 85%, 62%);
+  background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: cursive;
+  font-weight: 200;
+}
+header p {
+  color: #fff;
+  font-family: cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+  text-shadow: 0 2px 3px rgb(7, 7, 7);
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(61, 60, 60);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  color: rgb(5, 69, 104);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note hr {
+  margin-top: 4px;
+}
+.note p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  /* white-space: pre-wrap;
+  word-wrap: break-word; */
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: rgb(240, 8, 8);
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 4px;
+}
+
+form.create-note {
+  width: 400px;
+  box-shadow: 0 3px 5px black;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  margin: 30px auto;
+  position: relative;
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  margin: 2px auto;
+  border: none;
+  outline: none;
+  padding: 4px;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  bottom: -20px;
+  right: 20px;
+  position: absolute;
+  color: #fff;
+  background-color: rgb(0, 166, 255);
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
